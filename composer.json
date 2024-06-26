@@ -1,0 +1,17 @@
+{
+    "name": "bikeclub/bikeclub-faqs_content_type",
+    "description": "Installs FAQs content type.",
+    "keywords": ["recipe", "Drupal standard install"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Nancy Cole",
+            "homepage": "https://bikeclubsites.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+		"drupal/node_revision_delete": "^2.0@beta"
+    }
+}

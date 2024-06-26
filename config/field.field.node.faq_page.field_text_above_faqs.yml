@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_above_faqs
+    - filter.format.basic_html
+    - node.type.faq_page
+  module:
+    - text
+id: node.faq_page.field_text_above_faqs
+field_name: field_text_above_faqs
+entity_type: node
+bundle: faq_page
+label: 'Text above FAQs (optional)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+field_type: text_long

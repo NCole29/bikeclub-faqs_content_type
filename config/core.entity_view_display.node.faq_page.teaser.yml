@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.faq_page.field_contact
+    - field.field.node.faq_page.field_faq
+    - field.field.node.faq_page.field_text_above_faqs
+    - field.field.node.faq_page.field_text_below_faqs
+    - node.type.faq_page
+  module:
+    - user
+id: node.faq_page.teaser
+targetEntityType: node
+bundle: faq_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_contact: true
+  field_faq: true
+  field_text_above_faqs: true
+  field_text_below_faqs: true
